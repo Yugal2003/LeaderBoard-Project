@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>LearderBoard Project</title>
+</head>
+<body>
+    <div class="main">
+        <h1>LEADERBOARD</h1>
+        <form onsubmit="addPlayer(event)">
+            <label for="firstname"></label>
+            <input type="text" id="firstname" placeholder="First Name">
+
+            <label for="lastname"></label>
+            <input type="text" id="lastname" placeholder="Last Name">
+
+            <label for="country"></label>
+            <input type="text" id="country" placeholder="Country">
+
+            <label for="score"></label>
+            <input type="number" id="score" placeholder="Player Score">
+
+            <button type="submit" id="butt">Add Player</button>
+        </form>
+        <ul id="player_list">
+            <!-- this ul create bcz we have some create li store hear only -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <h1> LEADERBOARD </h1>
+        <form onsubmit="addPlayer(event)">
+            
+                <label for="first-name"> First Name:- </label>
+                <input id="first-name" name="first-name" type="text" placeholder="First Name" />
+    
+                <label for="last-name"> Last Name:- </label>
+                <input id="last-name" name="last-name" type="text" placeholder="Last Name" />
+ 
+                <label for="country">  Country:- </label>
+                <input id="country" name="country" type="text" placeholder="Country" />
+
+                <label for="score"> Score:- </label>
+                <input id="score" type="number" name="score" placeholder="Score" max="100" min="0" />
+
+            <button type="submit"> Submit </button>
+
+        </form>
+        <ul id="player-list">
+
+        </ul>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html> -->
